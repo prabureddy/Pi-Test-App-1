@@ -4,7 +4,8 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="./iziToast/iziToast.min.css">
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<style>
 		table {
 			font-family: arial, sans-serif;
@@ -21,6 +22,20 @@
 
 		tr:nth-child(even) {
 			background-color: #dddddd;
+		}
+
+		.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			color: black;
+			text-align: center;
+		}
+
+		.fa {
+			padding: 2px;
+			line-height: 20px;
 		}
 	</style>
 </head>
@@ -59,6 +74,22 @@
 					<td>{{ i.status }}</td>
 				</tr>
 			</table>
+		</div>
+		<div class="footer">
+			<p>
+				<span>Developed by <span style="text-decoration: underline;">Bhargava Prabu Reddy</span></span>
+				<a href="https://www.facebook.com/bpr1010/" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/iam_crazzie/" class="fa fa-instagram"></a>
+				<a href="https://www.linkedin.com/in/prabureddy/" class="fa fa-linkedin"></a>
+				<a href="https://codeforcoder.com/about/" class="fa">
+					<img style="width: 18px;" src="https://codeforcoder.com/static/favicon/favicon.ico"
+						alt="codeforcoder">
+				</a>
+				<a href="https://chrome.google.com/webstore/detail/lpu-ums-extension/acpmgacalnkaggikkhdffhogebmbjpmp"
+					class="fa"><img style="width: 18px;"
+						src="https://image3.mouthshut.com/images/imagesp/925717611s.png" alt="codeforcoder">
+				</a>
+			</p>
 		</div>
 	</div>
 	<script src="https://downloads.minepi.com/sdk/v1/dev.js" type="text/javascript"></script>
